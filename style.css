@@ -6,7 +6,16 @@
 --grey-900: hsl(0, 0%, 8%) ;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+}
 
 
 
