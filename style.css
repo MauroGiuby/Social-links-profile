@@ -60,6 +60,10 @@ body {
   font-weight: var(--font-weight-bold);
 }
 
+.title h1 {
+  margin-bottom: 4px;
+}
+
 .title p {
   font-size: 14px;
 }
