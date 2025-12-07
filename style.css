@@ -58,11 +58,18 @@ body {
   flex-direction: column;
   text-align: center;
   font-weight: var(--font-weight-regular);
+}
+
+.links a {
+  display: inline-block;
   color: var(--white);
-  border-bottom: 8px;
+  margin: 4px;
+  padding: 4px;
+  border-bottom: 10px;
   border-radius: 8px;
   cursor: pointer;
   background-color: var(--grey-700);
+  text-decoration: none;
 }
 
 
