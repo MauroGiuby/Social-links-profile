@@ -25,6 +25,11 @@ body {
   font-family: 'Inter', sans-serif;
   color: var(--white);
   font-weight: var(--font-family-base);
+  /* centrare l'intera card */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .card {
@@ -73,5 +78,14 @@ body {
   font-size: 14px;
 }
 
+.attribution { 
+  display: inline-block;
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
 
 
