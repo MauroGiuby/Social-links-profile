@@ -21,16 +21,16 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--grey-900);
   font-family: 'Inter', sans-serif;
-  color: var(--white);
   font-weight: var(--font-family-base);
+  background-color: var(--grey-900);
+  color: var(--white);
+  height: 100vh;
   /* centrare l'intera card */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .card {
