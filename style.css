@@ -61,12 +61,11 @@ body {
 
 .links a {
   display: inline-block;
-  align-items: center;
   color: var(--white);
   margin: 6px;
-  padding: 4px;
+  padding: 12px;
   max-width: 280px;
-  border-bottom: 10px;
+  border-bottom: 18px;
   border-radius: 8px;
   cursor: pointer;
   background-color: var(--grey-700);
