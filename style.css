@@ -39,7 +39,7 @@ body {
   padding: 24px;
   text-align: center;
   max-width: 375px;
-  min-width: 320px;
+  min-width: 320px; /* larghezza minima, quando vado a restringere lo schermo si desktop */
   border-radius: 8px;
 }
 
@@ -75,7 +75,7 @@ p {
 }
 
 .links a {
-  display: inline-block;
+  display: inline-block; /* ogni link è un "blocco" ma resta sulla stessa riga */
   color: var(--white);
   margin: 6px;
   padding: 12px;
@@ -83,7 +83,7 @@ p {
   border-radius: 8px;
   cursor: pointer;
   background-color: var(--grey-700);
-  text-decoration: none;
+  text-decoration: none; /* rimuove la sottolineatura */
   font-size: 14px;
   font-weight: var(--font-weight-bold);
 }
