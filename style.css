@@ -54,8 +54,15 @@ body {
 }
 
 .links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   font-weight: var(--font-weight-regular);
   color: var(--white);
+  border-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--grey-700);
 }
 
 
