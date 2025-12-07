@@ -16,11 +16,15 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  background-color: var(--grey-900);
+  font-family: 'Inter', sans-serif;
+  color: var(--white);
+  font-weight: var(--font-family-base);
 }
 
 
