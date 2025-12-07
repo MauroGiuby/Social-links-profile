@@ -56,20 +56,22 @@ body {
 .links {
   display: flex;
   flex-direction: column;
-  text-align: center;
   font-weight: var(--font-weight-regular);
 }
 
 .links a {
   display: inline-block;
+  align-items: center;
   color: var(--white);
-  margin: 4px;
+  margin: 6px;
   padding: 4px;
+  max-width: 280px;
   border-bottom: 10px;
   border-radius: 8px;
   cursor: pointer;
   background-color: var(--grey-700);
   text-decoration: none;
+  font-size: 14px;
 }
 
 
